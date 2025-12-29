@@ -13,21 +13,28 @@ video {
   display: block;
 }
 
+body {
+  background: #eee;
+}
+
 .rail {
+  height: 100vh;
   display: flex;
   padding: 50px 20px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: blanchedalmond;
+  gap: 40px;
+  background: #fff;
+  box-shadow: 2px 0 6px 0 rgba(0, 0, 0, 0.25);
+  width: max-content;
 }
 
 .nav {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   gap: 40px;
-  align-self: stretch;
 }
 
 .link {
@@ -36,7 +43,6 @@ video {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  align-self: stretch;
 }
 
 p {
@@ -44,9 +50,6 @@ p {
   text-align: center;
   font-family: Roboto;
   font-size: 22px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .orange p {
